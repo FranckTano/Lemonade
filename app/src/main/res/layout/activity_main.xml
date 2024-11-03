@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_lemon_tree"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/image_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lemon_tree"
+        android:contentDescription="@string/lemon_tree"/>
+</LinearLayout>
